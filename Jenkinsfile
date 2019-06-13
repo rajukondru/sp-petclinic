@@ -1,7 +1,5 @@
 pipeline {
-    agent all /* {
-		label 'rhel'
-	}*/
+    agent any
     
     stages{
         
